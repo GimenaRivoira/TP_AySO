@@ -1,0 +1,76 @@
+ls
+./autorun.sh 
+sudo apt update
+su
+sudo apt update
+sudo apt upgrade
+clear
+ssh-keygen
+cat $HOME /.ssh/*.pub
+mkdir repogit
+whoami
+cd repogit/
+cd ..
+cat /home/gimena/.ssh/id_rsa.pub
+ls
+cat repogit/
+cat $HOME/.ssh/*.pub
+cd repogit/
+git clone git@github.com:GimenaRivoira/TP_AySO.git
+sudo apt install git
+git clone git@github.com:GimenaRivoira/TP_AySO.git
+ls
+cd TP_AySO/
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos.txt
+nano datos.txt
+git add .
+git commit -m "agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git config --global user.email "gimenarivoira@gmail.com"
+git config --global user.name "Gimena Rivoira"
+git status
+git push
+tree
+grep /proc
+top
+ls
+grep cpuinfo
+cat dump traffic
+apropos traffic
+man tcpdump
+echo "inicio" >> comando_dump_net.txt
+cd ..
+cd repogit/
+cd TP_AySO/
+echo "inicio" >> comando_dump_net.txt
+echo "Para hacer una busqueda y buscar como ejecutar el comando dumb traffic se hace lo siguiente: 1. Ejecutar el comando apropos trafic " >> comando_dump_net.txt
+apropos trafic >> comando_dump_net.txt
+nano comando_dump_net.txt
+apropos traffic >> comando_dump_net.txt
+nano comando_dump_net.txt
+echo "Como se indica, este comando me trago todos los comandos relacionados con el cual tcpdump es el indicado" >> comando_dump_net.txt
+echo "Obtengo la informacion del mismo efecutando: man tcpdump" >> comando_dump_net.txt
+
+nano comando_dump_net.txt
+git status
+git add comando_dump_net.txt
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git push
+cat << EOF > README.md
+Alumno: Gimena Rivoira
+Divison: 315
+Turno: Noche
+EOF
+
+git status
+git add README.md 
+git commit -m "ADD: README.MD con los datos del estudiante"
+git push
+nano README.md 
+history -a
