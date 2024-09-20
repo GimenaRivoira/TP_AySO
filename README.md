@@ -1,2 +1,3 @@
-# TP_AySO
-TP 01 - Arquitectura y sistemas oprativos
+Alumno: Gimena Rivoira
+Divison: 315
+Turno: Noche
